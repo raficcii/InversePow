@@ -153,7 +153,7 @@ void MatMat( double **A , int mA , double **B, int nB , int nAB ,  double **C )
       {
 	C[i][j ] = 0.;
 
-	for ( int k = 0 ; k < _??___ ; ++k ) C[ i ] [ j ] +=  A[___][___] * B [___][___];
+	for ( int k = 0 ; k < nAB ; ++k ) {C[ i ] [ j ] +=  A[i][k] * B [k][j]; }
 
       }
 }

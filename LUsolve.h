@@ -5,15 +5,12 @@
 
 // A = LU, so solve the above system in a 2-step process
 
-void LUsolve(double **L ,
-	     double **U ,
-	     double *Sol ,
-	     double *RHS , int m , int n , double **A)
+void LUsolve(double **L ,double **U , double *Sol , double *RHS , int m , int n , double **A)
 {
   double y   [n];
 
   // Solve L*y = x
-
+	
 
 
 
